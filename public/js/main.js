@@ -63,8 +63,12 @@ destacados.forEach((productoEnArray, indice) => {
             </div>
             <hr/>
         `
-        
-    });
+        Toastify({
+            text: "Producto añadido al carrito",
+            duration: 3000,
+            style: {background: "linear-gradient(to right, #53A4FF, #3269A5)"},
+            }).showToast();
+        });
 });
 
 // Mostramos los elementos en el carrito
@@ -86,4 +90,9 @@ vaciaCarrito.addEventListener('click', (event) => {
     spanCarrito.innerText = '(' + sumCart +')';
     localStorage.clear();
     document.querySelector('#cartFather').removeChild(divCarrito);
+    Toastify({
+        text: "Carrito vaciado con éxito",
+        duration: 3000,
+        style: {background: "linear-gradient(to right, #E34646, #A53232)"},
+        }).showToast();
 });
