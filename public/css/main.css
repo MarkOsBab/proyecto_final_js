@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    justify-self: center;
+    margin: 1rem;
+    background-color: #FF6565;
+    color: white;
+    width: 20rem;
+    height: 40rem;
+    border-radius: .4rem;
+}
+
+.picture{
+    height: 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.pictureImg {
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    max-width: fit-content;
+    border-bottom: .1rem solid white;
+    margin: 0 auto;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 100;
+}
+
+.description {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyBtn{
+    background-color: #FF7865;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.buyBtn:hover{
+    background-color: #FF5C4C;
+}
+
+nav {
+    width: 100% auto;
+    padding: .1rem;
+    background-color: #55AFFF;
+}
+
+ul{
+    display: flex;
+    margin: 1.3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.navTitle {
+    font-family: 'Lobster Two', cursive;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.cart {
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
