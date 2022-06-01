@@ -16,7 +16,7 @@ if (localStorage.getItem('carrito')) {
 function showData()
 {
     const traerDatosJson = async () => {
-        let response = await fetch("./../public/cakes.json")
+        let response = await fetch("./public/cakes.json")
         let data = await response.json()
         cakes = data.cakes
 
