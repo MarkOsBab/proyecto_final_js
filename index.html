@@ -7,17 +7,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/main.css">
     <link rel="stylesheet" href="./public/css/icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <body>
   <nav>
     <ul>
       <a class="navTitle" href="#">Repostería beula</a>
       <li>
-        <button class="cart" id="cart"><i class="fa-solid fa-cart-shopping fa-2x"></i></button>
+        <a class="cart" id="cart" href="#carrito"><i class="fa-solid fa-cart-shopping"><span class="cartCount" id="cartCount"></span></i></a>
       </li>
     </ul>
   </nav>
   <div id="container" class="container"></div>
+  <div id="carrito" class="tableContainer">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nombre del producto</th>
+          <th>Descripción del producto</th>
+          <th>Precio del producto</th>
+        </tr>
+      </thead>
+      <tbody id="showItemsInCart"></tbody>
+    </table>
+    <div class="totalPayment">
+      <h3>SubTotal: $<span id="total"></span></h3>
+    </div>
+  </div>
+  <div class="trashBox">
+    
+  </div>
+  <div class="payBox">
+    <button class="buttonTrash" id="trash"><i class="fa-solid fa-trash-can"></i> Vaciar</button>
+    <button class="buttonPay" onclick="pagar()"><i class="fa-solid fa-basket-shopping"></i> Pagar</button>
+  </div>
+  
   <script src="./public/js/main.js"></script>    
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>

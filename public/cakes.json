@@ -7,97 +7,113 @@
         "id": 1,
         "title": "Drink bombones",
         "previewDescription": "Torta de chocolate con bombones y trufas",
-        "image": "./public/img/drink_bombones.webp"
+        "image": "./public/img/drink_bombones.webp",
+        "price": 3000
       },
       {
         "id": 2,
         "title": "Torta de 15",
         "previewDescription": "Torta de trufas de chocolate blanco y chocolate común",
-        "image": "./public/img/15_years.webp"
+        "image": "./public/img/15_years.webp",
+        "price": 2300
       },
       {
         "id": 3,
         "title": "Number cake",
         "previewDescription": "Torta de números",
-        "image": "./public/img/number_cake.webp"
+        "image": "./public/img/number_cake.webp",
+        "price": 1499
       },
       {
         "id": 4,
         "title": "Galletitas sonic",
         "previewDescription": "Galletas temáticas para cumpleaños",
-        "image": "./public/img/cookies_sonic.webp"
+        "image": "./public/img/cookies_sonic.webp",
+        "price": 1000
       },
       {
         "id": 5,
         "title": "Torta de frutilla",
         "previewDescription": "Torta de crema con frutillas bañadas en chocolate",
-        "image": "./public/img/cake_frutillas.webp"
+        "image": "./public/img/cake_frutillas.webp",
+        "price": 3000
       },
       {
         "id": 6,
         "title": "Red velvet",
         "previewDescription": "Torta de cumpleaños temática red",
-        "image": "./public/img/cake_red.webp"
+        "image": "./public/img/cake_red.webp",
+        "price": 3000
       },
       {
         "id": 7,
         "title": "Torta de halloween",
         "previewDescription": "Torta con temática de halloween para fiesta",
-        "image": "./public/img/halloween_cake.jpg"
+        "image": "./public/img/halloween_cake.jpg",
+        "price": 3000
       },
       {
         "id": 8,
         "title": "Torta Stranger Things",
         "previewDescription": "Torta temática Stranger Things",
-        "image": "./public/img/stringer_cake.jpg"
+        "image": "./public/img/stringer_cake.jpg",
+        "price": 3000
       },
       {
         "id": 9,
         "title": "Arrollado de frutillas",
         "previewDescription": "Pionono con crema y futillas con frutillas con jalea",
-        "image": "./public/img/arrollado_frutillas.jpg"
+        "image": "./public/img/arrollado_frutillas.jpg",
+        "price": 3000
       },
       {
         "id": 10,
         "title": "Donas",
         "previewDescription": "Donas decoradas",
-        "image": "./public/img/donas.jpg"
+        "image": "./public/img/donas.jpg",
+        "price": 3000
       },
       {
         "id": 11,
         "title": "Masas artesanales",
         "previewDescription": "Masas artesanales deliciosas",
-        "image": "./public/img/masas.jpg"
+        "image": "./public/img/masas.jpg",
+        "price": 3000
       },
       {
         "id": 12,
         "title": "Chajá",
         "previewDescription": "Chajá artesanal",
-        "image": "./public/img/chaja.jpg"
+        "image": "./public/img/chaja.jpg",
+        "price": 3000
       },
       {
         "id": 13,
         "title": "Bombones rellenos",
         "previewDescription": "Bombones rellenos con dulce de leche",
-        "image": "./public/img/bombones.jpg"
+        "image": "./public/img/bombones.jpg",
+        "price": 3000
       },
       {
         "id": 14,
         "title": "Torta fornite",
         "previewDescription": "Torta temática fornite",
-        "image": "./public/img/fornite.jpg"
+        "image": "./public/img/fornite.jpg",
+        "price": 3000
       },
       {
         "id": 15,
         "title": "Torta unicornio",
         "previewDescription": "Torta temática unicornio",
-        "image": "./public/img/unicornio.jpg"
+        "image": "./public/img/unicornio.jpg",
+        "price": 3000
       },
       {
         "id": 16,
         "title": "Torta gomitas",
         "previewDescription": "Torta con gomitas decoración de colores",
-        "image": "./public/img/gomitas.jpg"
+        "image": "./public/img/gomitas.jpg",
+        "price": 3000
       }
     ],
     "staffContacts": [
